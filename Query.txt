@@ -1,0 +1,18 @@
+CREATE TABLE Students (   
+   ID INT NOT NULL UNIQUE
+   Name VARCHAR(255)
+);
+
+CREATE TABLE Students (   
+   ID INT NOT NULL
+   LastName VARCHAR(255)
+   FirstName VARCHAR(255) NOT NULL
+   CONSTRAINT PK_Student
+   UNIQUE (ID, FirstName)
+);
+
+ALTER TABLE Students   
+ADD UNIQUE (ID);
+ALTER TABLE Students   
+ADD CONSTRAINT PK_Student   
+UNIQUE (ID, FirstName);

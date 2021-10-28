@@ -1,2 +1,2 @@
-# screening
-Sample code files
+# aem-model
+Code for basic AEM sling model

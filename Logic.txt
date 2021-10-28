@@ -1,0 +1,5 @@
+Input 1 : ABADDAC
+Output 1: ABDC
+
+Input 2: 13441878
+Output 2: 13487
